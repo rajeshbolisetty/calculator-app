@@ -1,17 +1,11 @@
-import logo from './logo.svg';
-import './App.css';
-
-function App() {
+/* eslint-disable react/react-in-jsx-scope */
+import Calculator from './components/calculator/calculator'
+function App () {
   return (
-    <div className="App">
-      <header className="App-header">
-       
-        <p>
-          Hello Rajesh
-        </p>
-      </header>
-    </div>
-  );
+    <>
+      <Calculator />
+    </>
+  )
 }
 
-export default App;
+export default App

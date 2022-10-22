@@ -1,0 +1,35 @@
+.show-btn {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    background-color: white;
+  }
+  
+  .zero {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    width: 190px !important;
+  }
+  
+  .btn {
+    width: 90px;
+    height: 60px;
+    margin: 1px auto;
+    margin-bottom: 3px;
+    margin-left: 1px;
+    font-size: 24px;
+    font-weight: 500;
+    cursor: pointer;
+    background: grey;
+    border: 0px;
+    color: white;
+  }
+  
+  .btn:active {
+    background-color: rgb(177, 174, 174);
+    transition: background-color 0.3s ease;
+  }
+  
+  .lastColumn {
+    background-color: #da952d;
+  }
+  
